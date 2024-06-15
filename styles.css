@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+/* General styling for the hero section */
+#hero {
+  background-color: #1a1a1a; /* Black background */
+  color: #e6e6fa; /* Lavender text color */
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Specific styles for the text and emoji */
+.hero-title {
+  font-size: 3rem;
+  color: #e6e6fa;
+  
+}
+
+.hero-title .hero-emoji {
+  font-size: 3rem;
+  margin-left: 10px;
+}
+
+.hero-subtitle {
+  font-size: 2.5rem;
+  color: #e6e6fa;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #e6e6fa;
+}
+
+.hero-cta {
+  margin-top: 1rem;
+}
+
+.cta-btn--hero {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #1a1a1a;
+  background-color: #e6e6fa;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-btn--hero:hover {
+  background-color: #dcdcdc;
+}
+
+.text-color-main {
+  color: #007bff;
+}
+
+.text-color-accent {
+  color: #28a745;
+}
+
+.load-hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Example to reveal elements */
+.load-hidden.loaded {
+  opacity: 1;
+}
+
+  
+  /* About Section */
+  #about {
+    background: #fff;
+    color: #333;
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-wrapper__image {
+    text-align: center;
+  }
+  
+  .about-wrapper__image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+  }
+  
+  .about-wrapper__info {
+    margin-top: 20px;
+  }
+  
+  .about-wrapper__info-text {
+    margin-bottom: 20px;
+  }
+  
+  .about-wrapper__info-list-container {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .about-wrapper__info-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-wrapper__info-list li {
+    margin-bottom: 10px;
+  }
+  .cta-btn--resume {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  display: inline-block;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  /* Education, Certifications, Internships, Projects Sections */
+  section {
+    background: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .education-wrapper,
+  .certifications-wrapper,
+  .internships-wrapper,
+  .project-wrapper {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-wrapper__text-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta-btn {
+    background: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .text-color-main {
+    color: #e67e22;
+  }
+  
+  .text-color-accent {
+    color: #3498db;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-wrapper__text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer__text {
+    margin: 10px 0;
+  }
+  
+  .back-to-top {
+    color: #e67e22;
+    text-decoration: none;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-links a i {
+    font-size: 1.5rem;
+  }
+    /* Responsive design for desktop size */
+    @media (min-width: 768px) {
+        .hero-title {
+          font-size: 4rem; /* Larger font size for desktop */
+        }
+      
+        .hero-title .hero-emoji {
+          font-size: 4rem; /* Larger emoji size for desktop */
+        }
+      
+        .hero-subtitle {
+          font-size: 3rem; /* Larger subtitle for desktop */
+        }
+      
+        .hero-description {
+          font-size: 1.2rem; /* Larger description for desktop */
+        }
+      } @media (min-width: 768px) {
+        .hero-title, .hero-subtitle, .hero-description {
+          font-size: 3rem;
+        }
+        
+        .hero-title .hero-emoji {
+          font-size: 3rem;
+        }
+      }
